@@ -1,0 +1,116 @@
+.ExploringTitle {
+
+    color: white;
+    font-size: 48px;
+    width: 80%;
+}
+
+.ExploringText {
+
+    color: rgba(255, 255, 255, 0.553);
+    width: 34%;
+}
+
+
+@media (max-width:1204px) {
+
+    .ExploringTitle {
+
+      
+        font-size: 40px;
+        width: 85%;
+    }
+    
+    .ExploringText {
+    
+     
+        width: 42%;
+    }
+    
+    
+}
+@media (max-width:996px) {
+
+    .ExploringTitle {
+
+      
+        font-size: 34px;
+        width: 90%;
+    }
+    
+    .ExploringText {
+    
+     
+        width: 48%;
+    }
+    
+    
+}
+@media (max-width:768px) {
+
+    .ExploringTitle {
+
+      
+        font-size: 29px;
+        width: 90%;
+    }
+    
+    .ExploringText {
+    
+     
+        width: 75%;
+    }
+    
+    
+}
+@media (max-width:484px) {
+
+    .ExploringTitle {
+
+      
+        font-size: 25px;
+        width: 100%;
+    }
+    
+    .ExploringText {
+    
+     
+        width: 85%;
+    }
+    
+    
+}
+@media (max-width:435px) {
+
+    .ExploringTitle {
+
+      
+        font-size: 22px;
+        width: 100%;
+    }
+    
+    .ExploringText {
+    
+     
+        width: 95%;
+    }
+    
+    
+}
+@media (max-width:394px) {
+
+    .ExploringTitle {
+
+      
+        font-size: 18px;
+    }
+    
+    .ExploringText {
+    
+     
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    
+}

@@ -1,0 +1,139 @@
+.active {
+
+   color: white;
+   font-weight: 600;
+   position: relative;
+}
+.active::before {
+content: "";
+position: absolute;
+left: 0;
+right: 0!important;
+bottom:-6px;
+height: 3px;
+background-color: var(--main_fontColor);
+border-radius: 4px;
+transition: all 400ms;
+}
+
+.navLink {
+
+    position: relative;
+
+}
+.navLink::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom:-6px;
+    height: 3px;
+    background-color:var(--main_fontColor) ;
+    border-radius: 4px;
+    transition: all 400ms;
+}
+
+.navLink:hover::before {
+    right: 0;
+  
+}
+
+.mainIconsNav1 {
+
+   
+    display: none;
+
+}
+
+
+
+
+@media (max-width:993px) {
+
+
+  
+
+    .navLink {
+
+        margin-block: 20px;
+    }
+
+    .navContent { 
+    
+    position: fixed; 
+    z-index: 999; 
+    width: 350px;
+     height: 100vh; 
+     border-left: 2px solid #f1f1f1;
+      right:0;
+     top: 0;
+     background-color: unset!important;
+    translate: 100%;
+    transition: 350ms;
+
+    }
+
+    .ToggleIcon{
+
+        position: absolute;
+        top: 30px;
+        left: -60px;
+        display: block!important;
+    }
+
+.drowpDown {
+
+    background-color: #ffffffcf!important;
+}
+   
+    .navContent::after { content: '';
+         position: absolute;
+          left: 0;
+           right: 0;
+           top: 0;
+           z-index: -1;
+           height: 100%;
+            background: linear-gradient(to right,   #010e28 0%,#e05ca9 100%);
+        display: block; 
+        }
+
+        .navContent_ul{
+
+            display: block;
+        }
+
+        .navContent_ul_li {
+
+            margin-block: 14px;
+        }
+
+        .mainIconsNav1 {
+
+            align-items: start;
+            margin-top: 33px;
+            display: block;
+
+        }
+
+        .mainIconsNav2 {
+
+            display: none;
+        }
+
+        .AR {
+
+            margin-top: -0.75rem;
+        }
+
+       
+    
+}
+
+@media  (min-width:993px) {
+    
+    .navContent {
+
+        translate: unset!important;
+    }
+}
+

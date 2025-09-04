@@ -1,0 +1,170 @@
+.Artificial_Intelligence {
+
+
+    padding-block: 50px;
+}
+
+.Artificial_Intelligence_span {
+
+    color: var(--main_fontColor);
+}
+  
+
+    .child2 {
+
+        padding-block: 140px;
+        background:radial-gradient(circle, #e7267a42 28%, #010e28 67%)
+
+
+    }
+
+
+    .child1 {
+        padding-block: 110px;
+
+
+    }
+
+    .Artificial_Intelligence_p {
+
+
+    font-family: var(--main_font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+
+ }
+ 
+ .Artificial_Intelligence_button {
+
+    background-color: #e7267a;
+ }
+
+ .Artificial_Intelligence_h2 {
+
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    line-height: 5.625rem;
+    font-family: var(--main_font);
+
+}
+
+
+.stars{
+
+    position: absolute;
+        top:0px; 
+        left: 79%;
+     }
+
+     @media (max-width:1285px) {
+    
+        .stars{
+       
+       position: absolute;
+           top: -50px; 
+        }
+       
+       
+       
+       
+       }
+ 
+@media (max-width:991px) {
+    
+    .child2 {
+
+      margin-top:50px!important;
+
+
+    }
+
+
+}
+@media (max-width:580px) {
+    
+    .Artificial_Intelligence_p {
+
+font-size: 17px;
+font-weight: 200;
+line-height: 24px;
+
+    }
+    .Artificial_Intelligence_h2{
+        font-size:40px;
+        font-weight:400;
+        line-height:60px;
+    }
+
+
+}
+@media (max-width:768px) {
+    
+    .Artificial_Intelligence_p {
+
+        font-size: 14px;
+        font-weight:0;
+        line-height: 22px;
+        letter-spacing: 1px;
+
+    }
+    .Artificial_Intelligence_h2{
+        font-size: 30px;
+        font-weight: 200;
+        line-height:30px;
+    }
+
+    /* .cyrcleImage {
+
+        position:"absolute";
+         left:52%;
+          top:43%;
+           translate:"-50% -50%"
+    }
+    .stars{
+
+        position:absolute;
+         left:79%;
+          top:0px;
+    } */
+
+
+}
+@media (max-width:361px) {
+    
+    .Artificial_Intelligence_p {
+
+        font-size: 12px;
+        font-weight:100;
+        line-height: 22px;
+        letter-spacing: 2px;
+
+    }
+    .Artificial_Intelligence_h2{
+        font-size: 20px;
+        font-weight: 100;
+        line-height:20px;
+    }
+
+
+
+
+}
+
+@media (max-width:1398px) {
+    
+ .stars{
+
+position: absolute;
+    top: -50px; 
+ }
+
+
+
+
+}
+
+
+

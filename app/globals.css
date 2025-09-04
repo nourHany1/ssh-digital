@@ -1,0 +1,304 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+
+    background-color: rgba(1, 14, 40, 1);
+    --main_font:"Work Sans", sans-serif;
+    --main_fontColor:rgba(231, 38, 122, 1)
+}
+
+*{
+
+    box-sizing: border-box;
+}
+
+
+.list2 ul li {
+
+    margin-block:14px;
+}
+
+.AiProjects .card1 ,.AiProjects  .card2 ,.AiProjects .card3 {
+
+background-color:#0c1933;
+border-radius: 1.25rem;
+
+}
+
+
+
+
+
+.innerFourProj {
+
+    background: radial-gradient(circle, #e05ca900 50%, #010e28 70%);}
+
+
+.JobName {
+
+    font-size:13px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.695);
+}
+
+.EngName {
+
+    font-weight: 700;
+}
+
+
+
+
+.clinetes .card1 ,.clinetes  .card2 ,.clinetes .card3 {
+
+    font-size: 15px;
+    font-family: var(--main_font); 
+color: white;
+background-color:#0c1933;
+border-radius: 1.25rem;
+
+}
+
+.imgWorking {
+
+    background: radial-gradient(circle, #e7267a7d 44%, #010e28 71%);
+    
+}
+
+.work_p_1{
+
+   color: var(--main_fontColor);
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+font-family: var(--main_font);
+
+
+}
+
+.work_p_2{
+
+font-size: 62px;
+font-weight: 500;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+font-family: var(--main_font);
+color: white;
+
+}
+
+
+.work_p_3{
+    font-family: var(--main_font);
+font-size: 22px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+
+.num {
+
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: center;
+font-family: var(--main_font);
+color: var(--main_fontColor);
+
+
+
+}
+
+.textNum {
+
+    font-family: var(--main_font)2px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+font-family: var(--main_font);
+
+
+
+}
+
+.about  {
+    background: linear-gradient(to bottom, #e7267a5e 5%, #010e28 71%);
+
+}
+.about h3 {
+
+    font-family: var(--main_font);
+font-size: 48px;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.about p {
+
+    font-family: var(--main_font);
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+
+
+
+}
+
+
+@media (max-width:1280px) {
+    
+
+    .about p {
+
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    }  
+
+
+
+}
+@media (max-width:1023px) {
+    
+    /* .imgAbout img {
+
+        height: 80%!important;
+    } */
+
+    .about p {
+
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    }  
+
+
+
+}
+
+
+
+
+
+@media (max-width:1164px) {
+
+    .Earth  {
+
+        background: radial-gradient(circle, #e7267a5e 21%, #010e28 65%); 
+    }
+    
+}
+@media (max-width:883px) {
+
+    .Earth  {
+
+        background: radial-gradient(circle, #e7267a5e 21%, #010e28 65%); 
+
+    }
+    
+}
+@media (max-width:770px) {
+
+    .forMiniMize {
+        font-size: 30px!important;
+        font-weight: 300;
+        line-height: 2rem!important;
+        letter-spacing: 0em;
+        /* text-align: center; */
+    
+    }
+
+    .forMiniMize2{
+
+        font-size:16px!important;
+    font-weight: 100;
+    }
+
+    .logoMinMize {
+
+
+        margin-top: 25px!important;
+    }
+
+    .textNum {
+
+
+        margin-bottom: 30px!important;
+        font-size: 22px!important;
+
+    }
+    
+
+    .num {
+
+        font-size: 30px!important;
+    }
+}
+@media (max-width:1024px) {
+
+    .Earth  {
+        justify-content: center!important;
+    }
+    
+}
+@media (max-width:640px) {
+
+    .LatestProjects  {
+margin-bottom: 30px!important;    }
+    
+}
+
+
+
+.Earth  {
+
+    width: 100%;
+    background: radial-gradient(circle, #e7267a5e 40%, #010e28 71%);
+}
+
+.homeTitle {
+    font-family: var(--main_font);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 6rem;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.paragraph1 {
+
+    font-family: var(--main_font);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.inp_1 {
+
+    background-color: rgb(63, 62, 85)!important;
+}
+
+
+

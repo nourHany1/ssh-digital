@@ -1,0 +1,62 @@
+.titleStudies {
+
+   font-family: var(--main_font);
+   color: var(--main_fontColor);
+   font-size: 1.5rem;
+}
+
+.studies_p {
+
+    font-family: var(--main_font);
+    font-size: 3rem;
+    width: 70%!important;
+}
+
+@media (max-width:1404px) {
+
+  .studies_p {
+
+    font-size: 2.5rem; ;
+  }  
+    
+}
+@media (max-width:993px) {
+
+  .studies_p {
+
+    font-size: 2rem; ;
+  }  
+    
+}
+@media (max-width:768px) {
+
+  .studies_p {
+
+    font-size: 1.375rem; ;
+  }  
+    
+}
+@media (max-width:530px) {
+
+  .studies_p {
+
+    font-size:17px; ;
+  }  
+    
+}
+@media (max-width:415px) {
+
+  .studies_p {
+
+    width: 90%!important;
+  }  
+    
+}
+@media (max-width:320px) {
+
+  .studies_p {
+
+    width: 95%!important;
+  }  
+    
+}
