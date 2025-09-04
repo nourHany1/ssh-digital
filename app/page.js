@@ -294,7 +294,7 @@ export default function Home({}) {
           </div>
         </section>
 
-        <div className="text-white">
+        <div className="text-white hidden md:block">
           <div className=" text-center">
             <h3 className="mt-10 mb-4 work_p_2 text-center forMiniMize !tracking-wider">
               {t("softwareComponent.header")}
