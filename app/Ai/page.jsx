@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import ArtificialIntelligence from '../Components/ArtificialIntelligence/ArtificialIntelligence'
 import AssistComp from '../Components/AssistComp/AssistComp'
@@ -9,20 +10,17 @@ import stars from '../../public/Allimages/ServicesImages/stars.png'
 import studies1 from '../../public/Allimages/studies/studies1.jpg'
 import studies2 from '../../public/Allimages/studies/studies2.jpg'
 import FormComp from '../Components/FormComp/FormComp'
+import { useTranslation } from 'react-i18next'
 
 export default function Ai() {
+  const {t, i18n} = useTranslation("global")
   return (
 <>
-<ArtificialIntelligence first_mainTitle='Artificial' 
-                        first_mainTitle2='intelligence (AI)'
+<ArtificialIntelligence first_mainTitle={`${t("aiPage.title1")}`} 
+                        first_mainTitle2={`${t("aiPage.title2")}`} 
                                     
-                        first_paragraph="Artificial intelligence (AI)
-                                is a field of computer science that deals with the 
-                                creation of intelligent ents, which are systems that
-                                can reason, learn, and act autonomously. AI includes
-                                a wide range of techniques, including machine learning,
-                                  deep learning, natural language processing, and computer vision"
-                        first_btnText='Contact Us'
+                        first_paragraph={`${t("aiPage.p")}`} 
+                        first_btnText={`${t("aiPage.btn")}`} 
                         first_image_1={{src:Ai_Image,alt:"Ai_Image"}}
                         first_image_2={{src:borderCyrcle,alt:"borderCyrcle"}}
                         first_image_3={{src:stars,alt:"stars"}}  />

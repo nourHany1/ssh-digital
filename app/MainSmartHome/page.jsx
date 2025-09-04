@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import smart1 from '../../public/Allimages/smartHome/smart1.png'
 import Exploring from '../Components/Exploring/Exploring'
@@ -5,16 +6,18 @@ import ArtificialIntelligence from '../Components/ArtificialIntelligence/Artific
 import AssistCyrcle from '../Components/AssistCyrcle/AssistCyrcle'
 import smart3 from '../../public/Allimages/smartHome/smart3.png'
 import FormComp from '../Components/FormComp/FormComp'
+import { useTranslation } from 'react-i18next'
 
 export default function MainSmartHome() {
+  const {t} = useTranslation("global")
   return (
 <>
 
-<ArtificialIntelligence first_mainTitle='Smart' 
-                        first_mainTitle2='Home'
+<ArtificialIntelligence first_mainTitle={t("sh.h1")} 
+                        first_mainTitle2={t("sh.h2")} 
                                     
-                        first_paragraph="The concept of home has evolved into something truly remarkable—smart homes. These technological marvels are not just residences; they are intelligent ecosystems that respond to your every need. Imagine walking into a well-lit, comfortably climate-controlled home, where your favorite music plays softly, and your security system ensures peace of mind."
-                        first_btnText='Contact Us'
+                        first_paragraph={t("sh.p1")} 
+                        first_btnText={t("sh.btn")} 
                         first_image_1={{src:smart1,alt:"smart home"}}
                         first_image_2={{src:"",alt:""}}
                         first_image_3={{src:"",alt:""}} 
@@ -25,7 +28,7 @@ export default function MainSmartHome() {
 
 <Exploring />
 
-<AssistCyrcle srcImage={smart3} altImage={"smart3"} text='aLTC plays a pivotal role in turning futuristic concepts into tangible realities. These companies possess the technological prowess to craft user-friendly mobile applications, serving as the command center for smart devices.' />
+<AssistCyrcle srcImage={smart3} altImage={"smart3"} text={t("sh.p3")}  />
 
 <FormComp />
 

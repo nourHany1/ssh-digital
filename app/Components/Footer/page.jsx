@@ -7,8 +7,10 @@ import * as Yup from "yup";
 import { useState } from 'react';
 import Image from 'next/image';
 import footerImage from '../../../public/Allimages/Footer/Home1.png'
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t, i18n } = useTranslation("global");
 
     const [isLoadingBtn,setIsLoadingBtn]=useState(false)
 
@@ -47,7 +49,7 @@ export default function Footer() {
   return (
     <div className='container' >
       
-<section className=' contactUs  grid xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 mt-28' >
+<section className={`contactUs  grid xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 mt-28 ${i18n.language === 'ar' ? ' rtl' : ''}`} >
 
 <div className="logo  ">
   <Image src={footerImage} alt="" />
@@ -59,23 +61,23 @@ export default function Footer() {
 
   <ul className=' text-[#ffffff5e] ' >
 
-  <li>Information</li>
-  <li>Ai</li>
-  <li>SoftWare Services</li>
-  <li>CRM System</li>
-  <li>E-Commerce</li>
-  <li>E-learning</li>
-  <li>UXUI Design</li>
+  <li>{t("footer.ul1.information")}</li>
+  <li>{t("footer.ul1.ai")}</li>
+  <li>{t("footer.ul1.softwareServices")}</li>
+  <li>{t("footer.ul1.crm")}</li>
+  <li>{t("footer.ul1.ecommerce")}</li>
+  <li>{t("footer.ul1.elearning")}</li>
+  <li>{t("footer.ul1.ux")}</li>
   </ul>
   <ul className=' text-[#ffffff5e]' >
 
-  <li className='text-white' >Company</li>
-  <li>Home</li>
-  <li>Services</li>
-  <li>Solutions</li>
-  <li>Projects</li>
-  <li>About Us</li>
-  <li>Contact us</li>
+  <li className='text-white' >{t("footer.ul2.company")}</li>
+  <li>{t("footer.ul2.home")}</li>
+  <li>{t("footer.ul2.services")}</li>
+  <li>{t("footer.ul2.solutions")}</li>
+  <li>{t("footer.ul2.projects")}</li>
+  <li>{t("footer.ul2.about")}</li>
+  <li>{t("footer.ul2.contact")}</li>
   </ul>
 
 
@@ -85,13 +87,13 @@ export default function Footer() {
 <div className="subscribe flex justify-center pt-3 pb-4  ">
 
         <div className='flex flex-col ' >
-        <label className='text-white ' htmlFor="subscrip">Subscrip</label>
+        <label className='text-white ' htmlFor="subscrip">{t("footer.subscribe")}</label>
         <div className='' >     
          <form onSubmit={formik.handleSubmit} className='flex' >
            <input 
            
            type="email"
-           placeholder="Email"
+           placeholder={t("footer.email")}
            name="email"
            id="email"
            onChange={formik.handleChange}
@@ -136,7 +138,7 @@ export default function Footer() {
 
         <div className="AllRight col-span-2 pe-24 mt-28">
 
-        <p className='text-[#ffffff5e] text-end text-[24px] ' >&copy; 2023  All rights reserved.</p>
+        <p className='text-[#ffffff5e] text-end text-[24px] ' >&copy; {t("footer.rights")}</p>
           
         </div>
 

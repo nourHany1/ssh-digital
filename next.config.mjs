@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir:'build',
 
     images: {
         remotePatterns: [
@@ -8,6 +9,7 @@ const nextConfig = {
             hostname: 'ssh.mqawilk.com',
             port: '',
             pathname: '/public/storage/**',
+            
           },
         ],
       }

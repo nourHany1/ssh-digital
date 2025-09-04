@@ -1,0 +1,192 @@
+{
+  "navBar":{
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Solutions",
+    "projects": "Projects",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "ai": "Artificial intelligence",
+    "softWare":"SoftWare Dev...",
+    "smart": "Smart Home"
+  },
+  "homePage": {
+    "welcome": "Turn your thoughts to reality",
+    "title" : "We are driven by the relentless pursuit of technological excellence. Our mission is to empower companies with a deep understanding of the latest technologies.",
+    "input": "Enter You Phone|     Request Call"
+  },
+  "aboutComponent": {
+    "header": "AboutUs",
+    "title": "We are a leading force in technology promotion. With our roots in Saudi Arabia and a new chapter revealing itself in Egypt, we bring a wealth of experience and knowledge to empower businesses and organizations. Our primary interest is in exploiting the potential of modern concepts such as big data analytics, artificial intelligence, computer vision, and Internet of Things solutions"
+  },
+  "clients": "clients",
+  "completedProjects" : "Completed projects",
+  "itProjects" : "It projects",
+  "sendingProjects": "Sending Projects",
+  "solutionsComponent":{
+    "header": "Solutions We Deliver",
+    "title": "We IT-enable all kinds of B2B, B2C interactions and internal operations.",
+    "enterprise": "Enterprise applications",
+    "erb": "ERB",
+    "crm": "CRM",
+    "hr": "HR software",
+    "ecommerce": "eCommerce",
+    "elearning": "elearning software",
+    "mobile": "Mobile Apps",
+    "collaboration": "Collaboration and productivity solutions",
+    "fleet": "Fleet management software",
+    "data": "Data Analytics",
+    "web": "Web portals",
+    "itsm": "ITSM"
+  },
+  "whatWeDo": {
+    "header": "What We Do",
+    "title1": "We create experiences that put people in Primrly",
+    "title2": "Experiences are only as good as their weakest points. Its about more than just creating shiny things. It is all about the quality of your brand"
+  },
+  "softwareComponent": {
+    "header": "Software consulting and development for your digital success",
+    "history": "Since 1989 for millions of users we transform businesses with powerful and adaptable digital solutions that satisfy the needs of today and unlock the opportunities of tomorrow",
+    "title": "Our various services"
+  },
+  "clientsRecommendations":{
+    "header": "Clients Recommendations",
+    "title": "our clients success stories",
+    "p": "ALTC is a truly pioneering company in the field of technology, and we cooperated with them a year ago to do a CRM system for my company, and we have achieved great success, and the company has a very distinguished team in all fields.",
+    "marwan": "Eng/Marwan Ahmed",
+    "ahmed": "Eng/Ahmed Mohamed",
+    "sara": "Eng/Sara Ahmed",
+    "entrepreneur": "Entrepreneur"
+  },
+  "projectsComponent": {
+    "header": "Projects",
+    "title1": "our completed wonderful projects",
+    "title2": "There is no limit to creativity. With a strong presence in the Kingdom of Saudi Arabia, we are proud to expand our reach with a new branch in Egypt. Our expertise lies in driving improvement and innovation through the latest technology trends.",
+    "btn": "Latest Projects"
+  },
+  "ourServices": {
+    "header": "our services",
+    "title": "ALTC has experts in all disciplines",
+    "ai":{
+      "title": "AI",
+      "p": "Artificial Intelligence technology unlocks limitless possibilities. AI solutions offer intelligent data analysis, enhance customer communication, and guide accurate decision-making"
+    },
+    "softwareServices":{
+      "title": "Software services",
+      "p": "Websites and apps represent your online presence. Through attractive design and outstanding user experience, you can reach a wide audience and build a strong presence."
+    },
+    "ecommerce":{
+      "title": "E-commerce",
+      "p": "E-commerce opens doors to expansion and online customer reach. Simply put, you can sell your products and services globally."
+    },
+    "btn": "See More"
+  },
+  "footer":{
+    "ul1":{
+      "information": "Information",
+      "ai": "Ai",
+      "softwareServices": "SoftWare Services",
+      "crm": "CRM System",
+      "ecommerce": "E-Commerce",
+      "elearning": "E-learning",
+      "ux": "UXUI Design"
+    },
+    "ul2":{
+      "company": "Company",
+      "home": "Home",
+      "services": "Services",
+      "solutions": "Solutions",
+      "projects": "Projects",
+      "about": "About Us",
+      "contact": "Contact Us"
+    },
+    "subscribe": "Subscribe",
+    "email": "Email",
+    "rights": "2023 All rights reserved."
+  },
+  "aiPage": {
+    "title1": "Artificial ",
+    "title2": "intelligence (AI) ",
+    "p": "Artificial intelligence (AI) is a field of computer science that deals with the creation of intelligent ents, which are systems that can reason, learn, and act autonomously. AI includes a wide range of techniques, including machine learning, deep learning, natural language processing, and computer vision",
+    "btn": "Contact Us",
+    "assist": {
+      "header": "How Can We Assist ?",
+      "title": "we can help customers provide an artificial intelligence (AI) service by offering a range of expertise and services tailored to their specific needs. Here's a roadmap for how a software company can assist customers in offering AI services:",
+      "p1": "AI Strategy and Consulting.",
+      "p2": "Data Collection and Preparation",
+      "p3": "AI Model Development.",
+      "p4": "Training and Testing.",
+      "p5": "Integration and Deployment.",
+      "p6": "Monitoring and Maintenance.",
+      "p7": "Security and Compliance.",
+      "p8": "AI Ecosystem Integration.",
+      "p9": "Performance Analytics."
+    },
+    "approach": {
+      "header": "Our Approach",
+      "p1": "Identify Business Problem",
+      "p2": "Collect and Prepare Data",
+      "p3": "Reimagine the process end-to-end with the technology",
+      "p4": "Model Development and Training",
+      "p5": "Optimize and Implement",
+      "p6": "Evaluate Models Performance"
+    },
+    "studies": {
+      "header": "Evaluate Models Performance",
+      "title": "Some of the exceptional ideas we made our clients bring to life",
+      "p1": "Technology Website",
+      "p2": "Cloud, Mobile, Python",
+      "btn": "See More"
+    }
+  },
+  "contact": {
+    "header": "Get In Touch With",
+    "span": "Us",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Phone Number",
+    "companyName": "Company Name",
+    "companyField": "Company Field",
+    "companySize": "Company Size",
+    "message": "Message",
+    "btn": "Send"
+  },
+  "sw":{
+    "h1": "SoftWare",
+    "h2": "Development",
+    "h3": "Digital",
+    "h4": "Transformation",
+    "p1": "We are technology partners for enterprises that lean on software to accomplish their business goals. For over 2 decades, we have crafted many custom-solutions to help our clients overcome challenges and respond aptly to competition.",
+    "p2": "We are a leading force in technology promotion. With our roots in Saudi Arabia and a new chapter revealing itself in Egypt, we bring a wealth of experience and knowledge to empower businesses and organizations. Our primary interest is in exploiting the potential of modern concepts such as big data analytics, artificial intelligence, computer vision, and Internet of Things solutions",
+    "p3": "Digital transformation is a strategic process that leverages digital technologies to fundamentally change how organizations operate, deliver value to customers, and remain competitive in the digital age. It involves reimagining business processes, adopting new technologies, and fostering a culture of innovation to drive meaningful and sustainable change",
+    "p4": "we are dedicated to being a driving force behind our clients' digital transformation endeavors. We understand that each organization's path to digitalization is unique, and we approach every project with a tailored strategy. Our team of experts brings a wealth of knowledge in cutting-edge technologies, custom software development, and digital strategy.",
+    "p-1": "AI Strategy and Consulting.",
+    "p-2": "Data Collection and Preparation.",
+    "p-3": "AI Model Development.",
+    "p-4": "Training and Testing.",
+    "p-5": "Integration and Deployment.",
+    "p-6": "Monitoring and Maintenance.",
+    "p-7": "Security and Compliance.",
+    "p-8": "AI Ecosystem Integration.",
+    "p-9": "Performance Analytics.",
+    "btn": "Contact Us"
+  },
+  "sh": {
+    "h1": "Smart",
+    "h2": "Home",
+    "h-1": "Exploring the World of ",
+    "h-2": "Smart",
+    "h-3": " Home Technology",
+    "p1": "The concept of home has evolved into something truly remarkable—smart homes. These technological marvels are not just residences; they are intelligent ecosystems that respond to your every need. Imagine walking into a well-lit, comfortably climate-controlled home, where your favorite music plays softly, and your security system ensures peace of mind.",
+    "p2": "Welcome to the future, where your home is not just a place; it's your personal, smart sanctuary.",
+    "p3":"ALTC plays a pivotal role in turning futuristic concepts into tangible realities. These companies possess the technological prowess to craft user-friendly mobile applications, serving as the command center for smart devices.",
+    "btn": "Contact Us"
+  },
+  "projects": {
+    "h1": "Work across all",
+    "h2": "major",
+    "h3": "industries",
+    "p1": "Glance over some of our successful project",
+    "p2": "executions"
+  }
+}

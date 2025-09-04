@@ -45,6 +45,9 @@ transition: all 400ms;
 
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
 
 
 
@@ -137,3 +140,7 @@ transition: all 400ms;
     }
 }
 
+
+.ltr {
+    flex-direction: row-reverse;
+}

@@ -1,46 +1,47 @@
-import React from 'react'
-import Image from 'next/image'
-import vector1 from '../../../public/Allimages/approach/Vector.png'
-import vector2 from '../../../public/Allimages/approach/Vector2.png'
-import vector3 from '../../../public/Allimages/approach/Vector3.png'
-import vector4 from '../../../public/Allimages/approach/Vector4.png'
-import vector5 from '../../../public/Allimages/approach/Vector5.png'
-import vector6 from '../../../public/Allimages/approach/Vector6.png'
-import styles from '../AssistComp/AssistComp.module.css'
+'use client'
+import React from "react";
+import Image from "next/image";
+import vector1 from "../../../public/Allimages/approach/vector.png";
+import vector2 from "../../../public/Allimages/approach/vector2.png";
+import vector3 from "../../../public/Allimages/approach/vector3.png";
+import vector4 from "../../../public/Allimages/approach/vector4.png";
+import vector5 from "../../../public/Allimages/approach/vector5.png";
+import vector6 from "../../../public/Allimages/approach/vector6.png";
+import styles from "../AssistComp/AssistComp.module.css";
+import { useTranslation } from 'react-i18next';
+
 export default function Approach() {
+  const { t } = useTranslation("global");
 
-const approach=[
-
-  {text:'Identify Business Problem',vector:vector1},
-  {text:'Collect and Prepare Data',vector:vector2},
-  {text:'Reimagine the process end-to-end with the technology',vector:vector3},
-  {text:'Model Development and Training',vector:vector4},
-  {text:'Optimize and Implement',vector:vector5},
-  {text:'Evaluate Models Performance',vector:vector6},
-
-]
+  const approach = [
+    { text: t("aiPage.approach.p1"), vector: vector1 },
+    { text: t("aiPage.approach.p2"), vector: vector2 },
+    { text: t("aiPage.approach.p3"), vector: vector3 },
+    { text: t("aiPage.approach.p4"), vector: vector4 },
+    { text: t("aiPage.approach.p5"), vector: vector5 },
+    { text: t("aiPage.approach.p6"), vector: vector6 },
+  ];
 
   return (
-    <div className='container my-32 ' >
-        <div className="row">
+    <div className="container my-32">
+      <div className="row">
+        <h3 className={`text-center my-14 ${styles.assistTitle}`}>
+          {t("aiPage.approach.header")}
+        </h3>
 
-                <h3 className={` text-center my-14 ${styles.assistTitle}`} >our Approach</h3>
-
-
-              {approach.map((text,idx)=>   <div className="col-lg-4 col-md-6 my-5 " key={idx} >
-
-                                <div className="innerCol flex flex-col items-center ">
-
-                                    <Image src={approach[idx].vector} alt='approach vector 1 ' className='mb-4' />
-                                    <p className='text-center text-white' >{approach[idx].text}</p>
-                                    
-                                </div>
-
-                      </div> )}
-             
-
-        </div>
-      
+        {approach.map(({ text, vector }, idx) => (
+          <div key={idx} className="col-lg-4 col-md-6 my-5">
+            <div className="innerCol flex flex-col items-center">
+              <Image
+                src={vector}
+                alt={`approach vector ${idx + 1}`}
+                className="mb-4"
+              />
+              <p className="text-center text-white">{text}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
-  )
+  );
 }

@@ -28,8 +28,37 @@ border-radius: 1.25rem;
 
 }
 
+.list-item{
+    position: relative;
+    transition: all 0.5 ease;
+}
+.list-item::after {
+    content: '\2192';
+    position: absolute;
+    display: inline-block;
+    margin-left: 0.5rem; /* تعديل المسافة بين العنصر والسهم */
+    color: #010e28; /* لون السهم */
+    font-size: 1.8rem; /* حجم السهم */
+    right: 0;
+    bottom: 0;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease; 
+}
+.list-item:hover{
+    background-color: #E7267A;
+}
+.list-item:hover::after{
+    transform: rotate(0);
+}
 
-
+.active::before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 330px;
+    left: 10px;
+    background-color: rgba(231, 38, 122, 0.5);
+}
 
 
 .innerFourProj {
@@ -75,7 +104,6 @@ font-size: 24px;
 font-weight: 600;
 line-height: 28px;
 letter-spacing: 0em;
-text-align: center;
 font-family: var(--main_font);
 
 
@@ -87,7 +115,6 @@ font-size: 62px;
 font-weight: 500;
 line-height: 64px;
 letter-spacing: 0em;
-text-align: left;
 font-family: var(--main_font);
 color: white;
 
@@ -100,7 +127,6 @@ font-size: 22px;
 font-weight: 400;
 line-height: 32px;
 letter-spacing: 0em;
-text-align: left;
 color: white;
 
 }
@@ -136,14 +162,13 @@ font-family: var(--main_font);
     background: linear-gradient(to bottom, #e7267a5e 5%, #010e28 71%);
 
 }
-.about h3 {
+.about h3, .solution h3 {
 
     font-family: var(--main_font);
 font-size: 48px;
 font-weight: 700;
 line-height: 72px;
 letter-spacing: 0em;
-text-align: left;
 
 }
 
@@ -154,7 +179,6 @@ font-size: 20px;
 font-weight: 400;
 line-height: 40px;
 letter-spacing: 0em;
-text-align: left;
 color: white;
 
 
@@ -229,7 +253,7 @@ color: white;
     .forMiniMize2{
 
         font-size:16px!important;
-    font-weight: 100;
+        font-weight: 100;
     }
 
     .logoMinMize {
@@ -280,7 +304,6 @@ margin-bottom: 30px!important;    }
     font-weight: 700;
     line-height: 6rem;
     letter-spacing: 0em;
-    text-align: left;
 
 }
 
@@ -291,7 +314,6 @@ margin-bottom: 30px!important;    }
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: 0em;
-    text-align: left;
 
 }
 
@@ -300,5 +322,17 @@ margin-bottom: 30px!important;    }
     background-color: rgb(63, 62, 85)!important;
 }
 
+.rtl {
+    direction: rtl;
+    flex-direction: row-reverse;
+    text-align: right;
+}
 
+
+.ltr {
+    direction: ltr;
+}
+.dir{
+    text-align: right !important;
+}
 

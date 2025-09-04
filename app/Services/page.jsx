@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import ArtificialIntelligence from '../Components/ArtificialIntelligence/ArtificialIntelligence'
 import 'bootstrap/dist/css/bootstrap.min.css'

@@ -2,8 +2,10 @@
 'use client'
 import React from 'react'
 import FormComp from '../Components/FormComp/FormComp'
+import { useTranslation } from 'react-i18next'
 
 export default function ContactUs() {
+  const {t, i18n} = useTranslation("global")
   return (
 <div className='py-7' >
 
