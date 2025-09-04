@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import vector1 from '../../../public/Allimages/approach/vector.png'
-import vector2 from '../../../public/Allimages/approach/vector2.png'
-import vector3 from '../../../public/Allimages/approach/vector3.png'
-import vector4 from '../../../public/Allimages/approach/vector4.png'
-import vector5 from '../../../public/Allimages/approach/vector5.png'
-import vector6 from '../../../public/Allimages/approach/vector6.png'
+import vector1 from '../../../public/Allimages/approach/Vector.png'
+import vector2 from '../../../public/Allimages/approach/Vector2.png'
+import vector3 from '../../../public/Allimages/approach/Vector3.png'
+import vector4 from '../../../public/Allimages/approach/Vector4.png'
+import vector5 from '../../../public/Allimages/approach/Vector5.png'
+import vector6 from '../../../public/Allimages/approach/Vector6.png'
 import styles from '../AssistComp/AssistComp.module.css'
 export default function Approach() {
 
